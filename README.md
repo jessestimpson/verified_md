@@ -252,8 +252,8 @@ question.
 
 | Project | Description | Methods | Dependencies with a `VERIFIED.md` |
 |---|---|---|---|
-| [peace](../peace/VERIFIED.md) | An Erlang library for replicated state machines that implements Flexible Paxos | Model checking, an inductive invariant, trace validation, deterministic simulation, linearizability checking, a Jepsen test, unit tests | None |
-| [redwall](../redwall/VERIFIED.md) | A transactional key-value store in Erlang that implements the transaction system of FoundationDB | Model checking, deterministic simulation, unit tests | peace |
+| [peace](https://github.com/jessestimpson/peace/blob/main/VERIFIED.md) | An Erlang library for replicated state machines that implements Flexible Paxos | Model checking, an inductive invariant, trace validation, deterministic simulation, linearizability checking, a Jepsen test, unit tests | None |
+| [redwall](https://github.com/jessestimpson/redwall/blob/main/VERIFIED.md) | A transactional key-value store in Erlang that implements the transaction system of FoundationDB | Model checking, deterministic simulation, unit tests | peace |
 
 The "Dependencies" section of redwall names 12 entries of peace. Its
 models treat peace as assumed. Its simulation treats peace as replaced in
